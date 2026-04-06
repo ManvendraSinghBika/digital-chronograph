@@ -53,7 +53,7 @@ export default function LoadingScreen({
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="fixed inset-0 z-[700] bg-background flex items-center justify-center"
+          className="fixed inset-0 z-700 bg-background flex items-center justify-center"
         >
           <div className="flex flex-col items-center gap-8">
             {/* Counter */}

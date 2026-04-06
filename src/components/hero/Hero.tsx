@@ -121,7 +121,7 @@ export default function Hero() {
         {/* Accent line */}
         <div
           ref={lineRef}
-          className="mt-8 h-px w-full bg-gradient-to-r from-accent via-accent/40 to-transparent"
+          className="mt-8 h-px w-full bg-linear-to-r from-accent via-accent/40 to-transparent"
         />
 
         {/* Subtitle */}

@@ -166,7 +166,7 @@ function BentoGrid() {
             loading="lazy"
           />
           {/* Gradient overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
 
           <div className="relative p-8 h-full flex flex-col justify-between">
             <div>
@@ -207,7 +207,7 @@ function BentoGrid() {
           </span>
           <div>
             {/* Simulated light bar */}
-            <div className="w-full h-1 rounded-full bg-gradient-to-r from-transparent via-accent to-transparent mb-3" />
+            <div className="w-full h-1 rounded-full bg-linear-to-r from-transparent via-accent to-transparent mb-3" />
             <span className="text-sm text-muted">
               Brutalist continuous light bar
             </span>

@@ -240,7 +240,7 @@ export default function ChronographCanvas({
 
       {/* ── Narrative Text Overlay ── */}
       <div
-        className="fixed inset-0 z-[201] pointer-events-none flex items-end justify-start px-6 md:px-16 lg:px-24 pb-16 md:pb-12 transition-opacity duration-500"
+        className="fixed inset-0 z-201 pointer-events-none flex items-end justify-start px-6 md:px-16 lg:px-24 pb-16 md:pb-12 transition-opacity duration-500"
         style={{ opacity: isInView ? 1 : 0 }}
       >
         <div className="max-w-xl">
@@ -259,7 +259,7 @@ export default function ChronographCanvas({
 
       {/* ── Era Indicator Dots (top-right) ── */}
       <div
-        className="fixed top-6 right-8 z-[200] pointer-events-none hidden md:flex items-center gap-3 transition-opacity duration-500"
+        className="fixed top-6 right-8 z-200 pointer-events-none hidden md:flex items-center gap-3 transition-opacity duration-500"
         style={{ opacity: isInView ? 1 : 0 }}
       >
         {Object.entries(ERA_FRAMES).map(([key, era]) => (
@@ -282,7 +282,7 @@ export default function ChronographCanvas({
 
       {/* ── Scroll Progress Bar ── */}
       <div
-        className="fixed top-0 left-0 w-full h-[2px] z-[200] bg-border transition-opacity duration-500"
+        className="fixed top-0 left-0 w-full h-[2px] z-200 bg-border transition-opacity duration-500"
         style={{ opacity: isInView ? 1 : 0 }}
       >
         <div

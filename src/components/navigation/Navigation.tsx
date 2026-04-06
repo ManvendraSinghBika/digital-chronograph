@@ -80,7 +80,7 @@ export default function Navigation() {
       {/* Desktop Navigation */}
       <nav
         ref={navRef}
-        className="fixed left-6 top-1/2 -translate-y-1/2 z-[100] opacity-0 hidden lg:flex flex-col gap-4"
+        className="fixed left-6 top-1/2 -translate-y-1/2 z-100 opacity-0 hidden lg:flex flex-col gap-4"
       >
         {NAV_ITEMS.map((item) => (
           <button
@@ -117,7 +117,7 @@ export default function Navigation() {
       </nav>
 
       {/* Mobile Navigation — fixed bottom bar */}
-      <nav className="fixed bottom-0 left-0 right-0 z-[100] lg:hidden glass border-t border-border pb-safe">
+      <nav className="fixed bottom-0 left-0 right-0 z-100 lg:hidden glass border-t border-border pb-safe">
         <div className="flex justify-around items-center pt-3 pb-8 px-2 max-w-md mx-auto">
           {NAV_ITEMS.map((item) => (
             <button
@@ -136,7 +136,7 @@ export default function Navigation() {
                   activeSection === item.id ? "bg-accent" : "bg-muted/50"
                 )}
               />
-              <span className="font-mono-accent text-[8px] tracking-[0.1em]">
+              <span className="font-mono-accent text-[8px] tracking-widest">
                 {item.label}
               </span>
             </button>

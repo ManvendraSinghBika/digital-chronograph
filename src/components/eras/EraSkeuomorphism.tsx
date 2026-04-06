@@ -106,7 +106,7 @@ export default function EraSkeuomorphism() {
 
         {/* ── Card 1: Porsche 996 (large, spans 2 cols) ── */}
         <CardContainer containerClassName="md:col-span-2 lg:col-span-2 !p-0">
-          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-gradient-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
+          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-linear-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
             <CardItem translateZ="30" className="w-full">
               <span className="font-mono-accent text-amber-500/60">
                 PORSCHE 996 · WATER-COOLED ENGINE
@@ -133,7 +133,7 @@ export default function EraSkeuomorphism() {
               </div>
             </CardItem>
             <CardItem translateZ="80" className="w-full mt-8">
-              <div className="aspect-[21/9] rounded-lg overflow-hidden border border-amber-900/20 relative">
+              <div className="aspect-21/9 rounded-lg overflow-hidden border border-amber-900/20 relative">
                 <Image
                   src="/images/996-engine-schematic.jpg"
                   alt="Porsche 996 M96 Water-Cooled Flat-Six Engine — Technical Cutaway"
@@ -150,7 +150,7 @@ export default function EraSkeuomorphism() {
 
         {/* ── Card 2: High-Tech Architecture ── */}
         <CardContainer containerClassName="!p-0">
-          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-gradient-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
+          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-linear-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
             <CardItem translateZ="30" className="w-full">
               <span className="font-mono-accent text-amber-500/60">
                 HIGH-TECH ARCHITECTURE
@@ -185,7 +185,7 @@ export default function EraSkeuomorphism() {
 
         {/* ── Card 3: Material Language ── */}
         <CardContainer containerClassName="!p-0">
-          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-gradient-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
+          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-linear-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
             <CardItem translateZ="30" className="w-full">
               <span className="font-mono-accent text-amber-500/60">
                 MATERIAL LANGUAGE
@@ -203,7 +203,7 @@ export default function EraSkeuomorphism() {
 
         {/* ── Card 4: Design DNA (spans 2 cols) ── */}
         <CardContainer containerClassName="md:col-span-2 !p-0">
-          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-gradient-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
+          <CardBody className="skeuo-card h-auto w-full rounded-xl p-8 border border-amber-900/30 bg-linear-to-br from-[#1a1500] via-[#0d0d0d] to-[#1a0f00]">
             <CardItem translateZ="30" className="w-full">
               <span className="font-mono-accent text-amber-500/60">
                 DESIGN DNA
@@ -213,7 +213,7 @@ export default function EraSkeuomorphism() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {["Gradients", "Drop Shadows", "Textures"].map((item) => (
                   <div key={item} className="text-center">
-                    <div className="aspect-square rounded-lg bg-gradient-to-b from-amber-800/30 to-amber-900/10 border border-amber-800/20 mb-3 flex items-center justify-center">
+                    <div className="aspect-square rounded-lg bg-linear-to-b from-amber-800/30 to-amber-900/10 border border-amber-800/20 mb-3 flex items-center justify-center">
                       <span className="text-amber-500/50 text-2xl">◆</span>
                     </div>
                     <span className="font-mono-accent text-[10px] text-muted">
@@ -232,7 +232,7 @@ export default function EraSkeuomorphism() {
         <span className="font-mono-accent text-amber-500/60 mb-4 block">
           ARCHITECTURAL BLUEPRINT — CANVAS REVEAL
         </span>
-        <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden border border-amber-900/20">
+        <div className="relative w-full aspect-16/10 rounded-xl overflow-hidden border border-amber-900/20">
           {/* Background image revealed underneath */}
           <div
             className="absolute inset-0 bg-cover bg-center"
