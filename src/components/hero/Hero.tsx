@@ -2,9 +2,12 @@
 
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import CinematicToggle from "@/components/cinematic/CinematicToggle";
 
-gsap.registerPlugin(ScrollToPlugin);
+type HeroProps = {
+  cinematicActive: boolean;
+  onToggleCinematic: () => void;
+};
 
 /* ─────────────────────────────────────────────
  *  HERO SECTION
@@ -12,7 +15,7 @@ gsap.registerPlugin(ScrollToPlugin);
  *  entrance with the Digital Brutalist aesthetic.
  * ───────────────────────────────────────────── */
 
-export default function Hero() {
+export default function Hero({ cinematicActive, onToggleCinematic }: HeroProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLDivElement>(null);
@@ -131,22 +134,15 @@ export default function Hero() {
             The way Stuttgart sculpted metal is the same way we learned
             to sculpt pixels. This is that story.
           </p>
-          <button
-            onClick={() => {
-              gsap.to(window, {
-                duration: 1.2,
-                scrollTo: { y: "#chronograph", offsetY: 0 },
-                ease: "power3.inOut",
-              });
-            }}
-            className="flex flex-col items-end gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded"
-            aria-label="Begin the timeline"
-          >
-            <span className="font-mono-accent text-muted text-[10px]">
-              BEGIN THE TIMELINE
-            </span>
-            <div className="w-px h-12 bg-accent/40 animate-pulse" />
-          </button>
+          <div className="flex flex-col items-end gap-3">
+            <CinematicToggle isActive={cinematicActive} onToggle={onToggleCinematic} />
+            <div
+              className={[
+                "w-px h-12 bg-accent/40 animate-pulse transition-opacity duration-300",
+                cinematicActive ? "opacity-0" : "opacity-100",
+              ].join(" ")}
+            />
+          </div>
         </div>
       </div>
     </section>

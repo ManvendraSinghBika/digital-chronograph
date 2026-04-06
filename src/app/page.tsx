@@ -11,6 +11,7 @@ import {
   LoadingScreen,
   ChronographWidget,
 } from "@/components";
+import { useCinematicScroll } from "@/hooks/useCinematicScroll";
 
 /* ─────────────────────────────────────────────
  *  THE DIGITAL CHRONOGRAPH
@@ -20,6 +21,19 @@ import {
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
+
+  const { isActive: isCinematicActive, toggle: toggleCinematic } = useCinematicScroll({
+    transitionMs: 200,
+    zones: [
+      { id: "hero", speed: 120 },
+      { id: "chronograph", speed: 200 },
+      { id: "era-2000s", speed: 40 },
+      { id: "era-2010s", speed: 40 },
+      { id: "era-modern", speed: 40 },
+      { id: "chronograph-widget", speed: 40, pauseMs: 3000 },
+      { id: "footer", speed: 20 },
+    ],
+  });
 
   const handleLoadComplete = useCallback(() => {
     setIsLoaded(true);
@@ -37,7 +51,10 @@ export default function Home() {
       <main className="relative">
         {/* HERO */}
         <div id="hero">
-          <Hero />
+          <Hero
+            cinematicActive={isCinematicActive}
+            onToggleCinematic={toggleCinematic}
+          />
         </div>
 
         {/* CHRONOGRAPH — GSAP Canvas Scrubbing */}
@@ -75,7 +92,7 @@ export default function Home() {
         </section>
 
         {/* ── Footer ── */}
-        <footer className="relative py-24 px-6 md:px-16 lg:px-24 border-t border-border">
+        <footer id="footer" className="relative py-24 px-6 md:px-16 lg:px-24 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
             <div>
               <div className="font-mono-accent text-accent tracking-[0.2em] text-[10px] whitespace-nowrap">
