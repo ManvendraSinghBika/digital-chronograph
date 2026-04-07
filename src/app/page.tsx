@@ -82,9 +82,9 @@ export default function Home() {
                  The Chronograph Itself
                </h2>
                <p className="mt-6 max-w-2xl text-muted text-lg leading-relaxed">
-                 Every design era produced its own way of measuring precision.
-                 This instrument — built with the same modern stack this site runs on —
-                 is the final artifact. Start it. Feel the milliseconds.
+                 Each era measured time differently — analog needles, digital counters,
+                 millisecond telemetry. This instrument is the essay&apos;s final object.
+                 A working chronograph, built in the idiom of the present.
                </p>
              </div>
              <ChronographWidget />
@@ -99,7 +99,7 @@ export default function Home() {
                 THE DIGITAL CHRONOGRAPH
               </div>
               <div className="mt-4 text-lg md:text-xl text-foreground/60 max-w-md leading-relaxed">
-                The way we design screens is the way we design everything.
+                The instruments change. The impulse to build them doesn&apos;t.
               </div>
             </div>
             <div className="flex flex-col items-end gap-4">

@@ -16,9 +16,9 @@ const spaceMono = Space_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://digital-chronograph.vercel.app"),
-  title: "The Digital Chronograph — How We Learned to See",
+  title: "The Digital Chronograph — A Design Essay",
   description:
-    "Three decades. Three Porsches. Three design revolutions. A design essay mapping the parallel evolution of automotive and digital interface design.",
+    "A visual argument tracing the shared lineage of Porsche cockpit design and digital interfaces, from textured skeuomorphism through flat minimalism to the brutalist present.",
   keywords: [
     "design essay",
     "Porsche",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Digital Chronograph",
     description:
-      "Three decades. Three Porsches. Three design revolutions. The way Stuttgart sculpted metal is the same way we learned to sculpt pixels.",
+      "From the 996's chrome gauge cluster to the Taycan's glass cockpit — how automotive interiors and screen design evolved in parallel, told through scroll-driven animation.",
     images: ["/images/taycan-cockpit.jpg"],
     type: "website",
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Digital Chronograph",
     description:
-      "A design essay mapping the parallel evolution of Porsche engineering and digital interface design.",
+      "A scroll-driven essay on Porsche engineering and digital interface design, spanning 2000 to the present.",
   },
 };
 

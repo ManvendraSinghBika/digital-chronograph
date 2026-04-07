@@ -71,7 +71,7 @@ export default function LoadingScreen({
 
             {/* Label */}
             <div className="font-mono-accent text-muted text-[10px] tracking-[0.3em]">
-              LOADING 25 YEARS OF DESIGN HISTORY
+               ASSEMBLING THE TIMELINE
             </div>
           </div>
         </motion.div>

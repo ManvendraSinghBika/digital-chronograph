@@ -89,7 +89,7 @@ export default function Hero({ cinematicActive, onToggleCinematic }: HeroProps) 
           THE DIGITAL CHRONOGRAPH
         </div>
         <div className="font-mono-accent text-muted text-[10px] tracking-[0.2em]">
-          EST. 2000
+          2000 — PRESENT
         </div>
       </div>
 
@@ -101,7 +101,7 @@ export default function Hero({ cinematicActive, onToggleCinematic }: HeroProps) 
             A DESIGN ESSAY
           </span>
           <span className="font-mono-accent text-muted text-[10px]">
-            PORSCHE · PIXELS · PARALLELS
+            PORSCHE · INTERFACES · ARCHITECTURE
           </span>
         </div>
 
@@ -130,9 +130,9 @@ export default function Hero({ cinematicActive, onToggleCinematic }: HeroProps) 
         {/* Subtitle */}
         <div ref={subtitleRef} className="mt-8 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <p className="text-muted text-lg md:text-xl max-w-xl leading-relaxed">
-            Three decades. Three Porsches. Three design revolutions.
-            The way Stuttgart sculpted metal is the same way we learned
-            to sculpt pixels. This is that story.
+            The cockpits Stuttgart built and the screens we designed followed
+            the same instincts, at the same time, for the same reasons.
+            Scroll to trace the lineage.
           </p>
           <div className="flex flex-col items-end gap-3">
             <CinematicToggle isActive={cinematicActive} onToggle={onToggleCinematic} />

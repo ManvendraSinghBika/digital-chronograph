@@ -94,10 +94,9 @@ export default function EraSkeuomorphism() {
           </span>
         </h2>
         <p className="mt-6 max-w-2xl text-muted text-lg leading-relaxed">
-          We didn&apos;t trust pixels yet. So we made them look like things
-          we could touch — brushed aluminum buttons, leather-stitched
-          calendars, glossy toggles that caught the light. The screen
-          had to earn our trust by pretending to be something else.
+          Before we trusted the screen, we dressed it in materials we already
+          understood. Leather grain on a calendar app. Brushed aluminum
+          behind a volume slider. Every pixel was an apology for not being physical.
         </p>
       </div>
 
@@ -118,10 +117,10 @@ export default function EraSkeuomorphism() {
               </h3>
             </CardItem>
             <CardItem translateZ="40" as="p" className="w-full text-muted leading-relaxed mt-3">
-              Porsche did the same thing with metal that Apple did with pixels.
-              The 996&apos;s cockpit was an analog instrument cluster dressed in
-              chrome and leather — because the driver&apos;s trust had to be
-              earned through familiarity. Every gauge was a skeuomorph.
+              When Porsche moved to water cooling, the purists revolted. The 996
+              was mechanically new but visually cautious — its instrument cluster
+              still spoke in analog dials and chrome surrounds. The same tension
+              ruled early smartphones: new technology, old visual language.
             </CardItem>
             <CardItem translateZ="20" className="w-full mt-4">
               <div className="flex gap-4 font-mono-accent text-[10px] text-muted">
@@ -160,9 +159,10 @@ export default function EraSkeuomorphism() {
               <h3 className="text-xl font-bold text-foreground">Inside-Out</h3>
             </CardItem>
             <CardItem translateZ="40" as="p" className="w-full mt-3 text-sm text-muted leading-relaxed">
-              Norman Foster and Richard Rogers exposed a building&apos;s guts
-              as its beauty. Pipes on the outside, structure as ornament.
-              The same instinct made us put drop shadows on every button.
+              Rogers and Foster pulled the mechanical systems out of the walls and
+              made them the façade. Structure as ornament. The early web had the
+              same exhibitionist streak: every gradient, bevel, and drop shadow
+              announced itself.
             </CardItem>
             <CardItem translateZ="80" className="w-full mt-6">
               <div className="aspect-square rounded-lg overflow-hidden border border-amber-900/20 relative">
@@ -195,8 +195,10 @@ export default function EraSkeuomorphism() {
               <h3 className="text-xl font-bold">Brushed Chrome</h3>
             </CardItem>
             <CardItem translateZ="40" as="p" className="w-full mt-3 text-sm text-muted leading-relaxed">
-              iOS 1–6 and Windows Aero made us believe our screens were
-              made of glass and chrome. Every pixel was an act of material theater.
+              The first six versions of iOS and Windows Aero
+              shared a conviction: the screen should feel like a surface
+              you could run your thumb across. Glass, chrome, reflection.
+              Pixels performing a material identity.
             </CardItem>
           </CardBody>
         </CardContainer>

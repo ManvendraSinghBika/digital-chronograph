@@ -25,7 +25,7 @@ const STICKY_CONTENT = [
   {
     title: "The Classical Return",
     description:
-      "Then we grew up. The 991 returned to the classical silhouette and said: the car doesn't need decoration. The driving does. Its interior — a clean, vertically oriented center console — was physical minimalism. Every knob earned its place.",
+      "The 991 brought back the original silhouette after years of evolutionary drift. Its cockpit was vertical, restrained, deliberate — every control surface placed where the driver's hand already expected it. Nothing decorative. Everything earned.",
     content: (
       <div className="relative h-full w-full overflow-hidden rounded-md">
         <Image
@@ -43,7 +43,7 @@ const STICKY_CONTENT = [
   {
     title: "Flat Design Revolution",
     description:
-      "iOS 7 stripped away every shadow, every texture, every faux-leather stitch. What was left? Typography. White space. The content itself. Jony Ive said: the interface should defer to the content. He was right.",
+      "Jony Ive's iOS 7 was a controlled demolition. Out went the linen textures, the green felt, the faux-wood shelving. The argument was simple: an interface should defer to what it contains. A decade of digital ornament, gone in a single software update.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,#06b6d4,#0ea5e9)] text-white">
         <span className="font-mono text-[10px] tracking-[0.3em] opacity-60">
@@ -55,7 +55,7 @@ const STICKY_CONTENT = [
   {
     title: "Scandinavian Functionalism",
     description:
-      "Architecture followed the same instinct. Scandinavian functionalism — light, oak, concrete, floor-to-ceiling glass — created spaces that feel breathable. The buildings started looking like websites. Or maybe we started building websites that looked like buildings.",
+      "Architecture had the same instinct in the same years. Light oak, poured concrete, floor-to-ceiling glass. Scandinavian interiors started looking like websites. Or perhaps we had started building websites that looked like Scandinavian interiors. The causality doesn't matter. The convergence does.",
     content: (
       <div className="relative h-full w-full overflow-hidden rounded-md">
         <Image
@@ -73,7 +73,7 @@ const STICKY_CONTENT = [
   {
     title: "Responsive & Mobile-First",
     description:
-      "Mobile-first design forced a reckoning with information density. Every element had to earn its place on a 4-inch screen. The 991's dashboard philosophy — nothing unnecessary — became the web's guiding principle.",
+      "A four-inch screen is a brutal editor. It forced the same reckoning the 991's cockpit did: if something can't justify its presence at arm's length and 130 mph, it doesn't belong. Mobile-first design wasn't a trend. It was a constraint that burned away everything gratuitous.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,#0f172a,#1e3a5f)] text-white">
         <div className="text-center">
@@ -159,7 +159,7 @@ export default function EraMinimalism() {
       {/* Text Generate Hero Quote */}
       <div className="px-6 md:px-16 lg:px-24 pb-20">
         <TextGenerate
-          text="Then we grew up. iOS 7 stripped every shadow, every texture, every faux-leather stitch. What was left? Typography. White space. The content itself. The best interface became no interface at all."
+          text="iOS 7 deleted every texture, every shadow, every stitched-leather ornament. What remained was typography and white space. The decade that followed asked one question of every element: do you earn your place here?"
           className="text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed max-w-4xl"
         />
       </div>

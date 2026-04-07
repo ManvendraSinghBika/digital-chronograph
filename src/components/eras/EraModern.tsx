@@ -177,8 +177,9 @@ function BentoGrid() {
                 Porsche Taycan
               </h3>
               <p className="mt-3 text-muted text-sm leading-relaxed max-w-sm">
-                The digital-first future. A curved glass cockpit that IS a
-                screen. Where mechanical precision meets electric silence.
+                A car whose cockpit is, literally, a screen. The curved glass instrument
+                cluster erases the boundary between analog and digital. Mechanical
+                precision rendered in pixels.
               </p>
             </div>
             <div className="flex gap-6 font-mono-accent text-[10px] text-muted">
@@ -209,7 +210,7 @@ function BentoGrid() {
             {/* Simulated light bar */}
             <div className="w-full h-1 rounded-full bg-linear-to-r from-transparent via-accent to-transparent mb-3" />
             <span className="text-sm text-muted">
-              Brutalist continuous light bar
+              A single continuous light strip — the rear identity reduced to one gesture
             </span>
           </div>
         </div>
@@ -223,7 +224,7 @@ function BentoGrid() {
           </span>
           <div>
             <div className="glass rounded-lg p-3 text-sm text-foreground/80">
-              Transparency + Blur = Depth
+              Frosted layers. Translucent depth. Background as content.
             </div>
           </div>
         </div>
@@ -238,9 +239,9 @@ function BentoGrid() {
           <div>
             <h4 className="text-xl font-bold text-foreground">Bento Grids</h4>
             <p className="mt-2 text-sm text-muted">
-              Modular organization inherited from Brutalist architecture —
-              repeating functional modules of concrete and glass,
-              translated to pixels. Like this grid you&apos;re looking at right now.
+              Modular, repeating units of information — inherited from Brutalist
+              architecture&apos;s concrete modules and adapted for the pixel grid.
+              Function dictating form at every scale.
             </p>
           </div>
         </div>
@@ -254,7 +255,7 @@ function BentoGrid() {
           </span>
           <div className="text-4xl text-foreground/20 font-bold">▦</div>
           <span className="text-sm text-muted">
-            Industrial Functionalism
+            Raw concrete logic, digitized
           </span>
         </div>
       </GlowCard>
@@ -266,8 +267,8 @@ function BentoGrid() {
             DESIGN ENGINEER
           </span>
           <p className="text-sm text-muted">
-            The hybrid role we now occupy: creative vision meets
-            technical rigor. You curate the intent. The tools assemble the form.
+            The role that emerged when the boundary between design intention and
+            technical execution dissolved. Curation meets engineering.
           </p>
         </div>
       </GlowCard>
@@ -301,10 +302,11 @@ export default function EraModern() {
             <span className="text-gradient">Brutalism</span>
           </h2>
           <p className="mt-6 max-w-2xl text-muted text-lg leading-relaxed">
-            Now we build with both. Industrial weight meets digital transparency.
-            The Taycan&apos;s curved glass cockpit is a Bento Grid — every element
-            modular, every surface translucent but structurally honest. This
-            section you&apos;re reading? It&apos;s built with the same principle.
+            The Taycan&apos;s cockpit is a single curved screen stretching from door to door.
+            No division between instrument and infotainment. The dashboard became
+            a continuous glass surface — structurally honest, industrially scaled,
+            and entirely digital. Contemporary interface design followed the same
+            trajectory.
           </p>
         </div>
 
@@ -327,9 +329,8 @@ export default function EraModern() {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <blockquote className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">
             <span className="text-gradient">
-              &ldquo;The way we design screens is the way we design
-              cars, buildings, and everything in between. The medium changes.
-              The instinct doesn&apos;t.&rdquo;
+              &ldquo;The medium changed three times.
+              The instinct behind it never did.&rdquo;
             </span>
           </blockquote>
           <div className="mt-8 font-mono-accent text-muted">

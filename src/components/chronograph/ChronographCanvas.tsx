@@ -23,15 +23,15 @@ export const ERA_FRAMES = {
 const ERA_NARRATION: Record<keyof typeof ERA_FRAMES, { era: string; line: string }> = {
   skeuomorphism: {
     era: "ERA 01 · SKEUOMORPHISM",
-    line: "The 996 taught us that function could wear texture.",
+    line: "Chrome bezels. Analog needles. The screen pretending to be a dashboard.",
   },
   minimalism: {
     era: "ERA 02 · MINIMALISM",
-    line: "The 991 proved that restraint is its own kind of power.",
+    line: "Everything that wasn\u2019t load-bearing got stripped away. Including the ornamentation.",
   },
   modern: {
     era: "ERA 03 · DIGITAL BRUTALISM",
-    line: "The Taycan fused raw industrial form with digital transparency.",
+    line: "Glass from pillar to pillar. The cockpit became the screen.",
   },
 };
 
